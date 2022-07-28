@@ -127,4 +127,8 @@ docker run java:8 /bin/echo 'Hello World!'
 
 #### centos7  1中有docker
 
-docker中有tomcat镜像
+docker中有
+    tomcat镜像  
+    jdk1.8
+    nginx
+    mysql
