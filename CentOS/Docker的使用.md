@@ -107,11 +107,15 @@ docker load -i /root/tomcat.tar
 
 4.1 使用镜像新建一个容器
 
-docker run
+#### docker run
 
-1.创建并运行一个java容器 ,打印helloworld!
+1. 创建并运行一个java容器 ,打印helloworld!
 
 docker run java:8 /bin/echo 'Hello World!'
+2. 创建一个CentOS容器
+docker run -dti --name=cl centos:centos7/bin/bash
+    -d: 表示守护式容器(用户退出容器后,容器依然可以正常运行)
+    -i: 运行容器
 
 
 
